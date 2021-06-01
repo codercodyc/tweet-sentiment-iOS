@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3260FF22665C52A004B6C5A /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3260FF12665C52A004B6C5A /* Secrets.plist */; };
 		C369686626659223002678F3 /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C369686526659223002678F3 /* TweetSentimentClassifier.mlmodel */; };
 		C36968682665B99E002678F3 /* env.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36968672665B99E002678F3 /* env.swift */; };
 		C369687C2665BB73002678F3 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36968722665BB47002678F3 /* SwifteriOS.framework */; };
@@ -72,6 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C3260FF12665C52A004B6C5A /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 		C369686526659223002678F3 /* TweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentClassifier.mlmodel; sourceTree = "<group>"; };
 		C36968672665B99E002678F3 /* env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = env.swift; sourceTree = "<group>"; };
 		C36968692665BB47002678F3 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				C3ECA0FA266303E70010CB09 /* AppDelegate.swift */,
 				C3ECA0FC266303E70010CB09 /* SceneDelegate.swift */,
 				C3ECA0FE266303E70010CB09 /* ViewController.swift */,
+				C3260FF12665C52A004B6C5A /* Secrets.plist */,
 				C36968672665B99E002678F3 /* env.swift */,
 				C3ECA100266303E70010CB09 /* Main.storyboard */,
 				C3ECA103266303E80010CB09 /* Assets.xcassets */,
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3260FF22665C52A004B6C5A /* Secrets.plist in Resources */,
 				C3ECA107266303E80010CB09 /* LaunchScreen.storyboard in Resources */,
 				C3ECA104266303E80010CB09 /* Assets.xcassets in Resources */,
 				C3ECA102266303E70010CB09 /* Main.storyboard in Resources */,

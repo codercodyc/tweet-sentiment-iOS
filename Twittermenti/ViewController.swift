@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var sentimentLabel: UILabel!
     
-    let swifter = Swifter(consumerKey: apiKey, consumerSecret: apiSecretKey)
+    let swifter = Swifter(consumerKey: consumerApiKey, consumerSecret: consumerApiSecretKey)
 
     
     override func viewDidLoad() {
