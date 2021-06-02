@@ -58,6 +58,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        textField.delegate = self
 //        let prediction = try! sentimentClassifer.prediction(text: "@Apple is a great company!")
 //        print(prediction.label)
         
@@ -69,6 +70,7 @@ class ViewController: UIViewController {
         fetchTweets()
         
     }
+    
     
     func fetchTweets() {
         if let searchText = textField.text {
@@ -138,6 +140,32 @@ class ViewController: UIViewController {
     }
     
 
+//    func initializeHideKeyboard() {
+//        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissMyKeyboard))
+//    }
+//
+//    @objc func dismissMyKeyboard() {
+//        view.endEditing(true)
+//    }
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+}
+
+extension ViewController: UITextFieldDelegate {
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        textField.text = ""
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        fetchTweets()
+        textField.resignFirstResponder()
+        return true
+    }
+    
     
 }
         

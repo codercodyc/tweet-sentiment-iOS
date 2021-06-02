@@ -17,14 +17,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How do people feel about..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rIm-t9-PIM">
-                                <rect key="frame" x="20" y="552" width="374" height="60"/>
+                                <rect key="frame" x="20" y="452" width="374" height="60"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="eep-5f-6zB"/>
                                 </constraints>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGa-4E-gLH">
                                 <rect key="frame" x="65" y="712" width="284" height="50"/>
@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSV-E5-dcH">
-                                <rect key="frame" x="50" y="244" width="314" height="119.5"/>
+                                <rect key="frame" x="50" y="194" width="314" height="119.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -54,10 +54,10 @@
                             <constraint firstItem="eSV-E5-dcH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="2R4-Mb-tPW"/>
                             <constraint firstItem="rIm-t9-PIM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="90s-GL-RBH"/>
                             <constraint firstItem="rIm-t9-PIM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Uvh-Lc-bN2"/>
-                            <constraint firstItem="oGa-4E-gLH" firstAttribute="top" secondItem="rIm-t9-PIM" secondAttribute="bottom" constant="100" id="dPT-r7-Unu"/>
+                            <constraint firstItem="oGa-4E-gLH" firstAttribute="top" secondItem="rIm-t9-PIM" secondAttribute="bottom" constant="200" id="dPT-r7-Unu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oGa-4E-gLH" secondAttribute="bottom" constant="100" id="gt3-HJ-K3w"/>
                             <constraint firstItem="eSV-E5-dcH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ikq-Bh-2tv"/>
-                            <constraint firstItem="eSV-E5-dcH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="qkW-z3-mbt"/>
+                            <constraint firstItem="eSV-E5-dcH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="qkW-z3-mbt"/>
                             <constraint firstItem="oGa-4E-gLH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="xW1-ED-r6h"/>
                         </constraints>
                     </view>
