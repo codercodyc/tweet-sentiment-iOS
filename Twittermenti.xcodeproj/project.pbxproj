@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		576B4CD8EA40C8778E304724 /* Pods_Twittermenti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0549C9906A92C7C782774D93 /* Pods_Twittermenti.framework */; };
 		C3260FF92665EF70004B6C5A /* Twitter-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3260FF82665EF70004B6C5A /* Twitter-Info.plist */; };
+		C3585B6D26855890000B01E4 /* Twitter-Info-EXAMPLE.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3585B6C26855890000B01E4 /* Twitter-Info-EXAMPLE.plist */; };
 		C369686626659223002678F3 /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C369686526659223002678F3 /* TweetSentimentClassifier.mlmodel */; };
 		C369687C2665BB73002678F3 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36968722665BB47002678F3 /* SwifteriOS.framework */; };
 		C369687D2665BB73002678F3 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C36968722665BB47002678F3 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -77,6 +78,7 @@
 		32EEF93D168DA8234922968F /* Pods-Twittermenti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twittermenti.debug.xcconfig"; path = "Target Support Files/Pods-Twittermenti/Pods-Twittermenti.debug.xcconfig"; sourceTree = "<group>"; };
 		770B15E23A6B5A3D47DA0345 /* Pods-Twittermenti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twittermenti.release.xcconfig"; path = "Target Support Files/Pods-Twittermenti/Pods-Twittermenti.release.xcconfig"; sourceTree = "<group>"; };
 		C3260FF82665EF70004B6C5A /* Twitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twitter-Info.plist"; sourceTree = "<group>"; };
+		C3585B6C26855890000B01E4 /* Twitter-Info-EXAMPLE.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twitter-Info-EXAMPLE.plist"; sourceTree = "<group>"; };
 		C369686526659223002678F3 /* TweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentClassifier.mlmodel; sourceTree = "<group>"; };
 		C36968692665BB47002678F3 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 		C3ECA0F7266303E70010CB09 /* Twittermenti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twittermenti.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +150,7 @@
 				C3ECA0FC266303E70010CB09 /* SceneDelegate.swift */,
 				C3ECA0FE266303E70010CB09 /* ViewController.swift */,
 				C3260FF82665EF70004B6C5A /* Twitter-Info.plist */,
+				C3585B6C26855890000B01E4 /* Twitter-Info-EXAMPLE.plist */,
 				C3ECA100266303E70010CB09 /* Main.storyboard */,
 				C3ECA103266303E80010CB09 /* Assets.xcassets */,
 				C3ECA105266303E80010CB09 /* LaunchScreen.storyboard */,
@@ -163,7 +166,6 @@
 				32EEF93D168DA8234922968F /* Pods-Twittermenti.debug.xcconfig */,
 				770B15E23A6B5A3D47DA0345 /* Pods-Twittermenti.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -274,6 +276,7 @@
 				C3260FF92665EF70004B6C5A /* Twitter-Info.plist in Resources */,
 				C3ECA107266303E80010CB09 /* LaunchScreen.storyboard in Resources */,
 				C3ECA104266303E80010CB09 /* Assets.xcassets in Resources */,
+				C3585B6D26855890000B01E4 /* Twitter-Info-EXAMPLE.plist in Resources */,
 				C3ECA102266303E70010CB09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
